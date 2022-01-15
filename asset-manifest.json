@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/practice-nufruit/static/css/main.c3a3a496.css",
+    "main.js": "/practice-nufruit/static/js/main.04bb9824.js",
+    "static/js/787.af8b8f37.chunk.js": "/practice-nufruit/static/js/787.af8b8f37.chunk.js",
+    "static/media/bg-1.png": "/practice-nufruit/static/media/bg-1.ad560f89ff21945fd33a.png",
+    "static/media/content-3.png": "/practice-nufruit/static/media/content-3.10354b32f010774d0475.png",
+    "static/media/sponsor-3.png": "/practice-nufruit/static/media/sponsor-3.ae2cc9a4982a0a40c9e9.png",
+    "static/media/content-2.png": "/practice-nufruit/static/media/content-2.58d262e9447bbea4940f.png",
+    "static/media/bg-2.png": "/practice-nufruit/static/media/bg-2.7a0315b5d31f8ee6cfb7.png",
+    "static/media/content-1.png": "/practice-nufruit/static/media/content-1.28a26074d1174b20765f.png",
+    "static/media/sponsor-2.jpg": "/practice-nufruit/static/media/sponsor-2.7730fc65ccfbce785caa.jpg",
+    "static/media/bg-3.png": "/practice-nufruit/static/media/bg-3.11394ac0e9db9f2e6ada.png",
+    "static/media/logo.svg": "/practice-nufruit/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/practice-nufruit/index.html",
+    "main.c3a3a496.css.map": "/practice-nufruit/static/css/main.c3a3a496.css.map",
+    "main.04bb9824.js.map": "/practice-nufruit/static/js/main.04bb9824.js.map",
+    "787.af8b8f37.chunk.js.map": "/practice-nufruit/static/js/787.af8b8f37.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c3a3a496.css",
+    "static/js/main.04bb9824.js"
+  ]
+}
