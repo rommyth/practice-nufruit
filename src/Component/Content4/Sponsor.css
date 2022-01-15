@@ -1,0 +1,35 @@
+.sponsor{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left:0;
+    
+}
+
+.sponsor img{
+    margin: auto;
+    max-width: 100px;
+    filter: saturate(0);
+}
+
+@media (min-width: 992px) { 
+    .sponsor{
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left:0;
+        
+    }
+    
+    .sponsor img{
+        margin: auto;
+        max-width: 100px;
+        filter: saturate(0);
+    }
+}

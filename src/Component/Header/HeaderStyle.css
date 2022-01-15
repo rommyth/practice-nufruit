@@ -1,0 +1,96 @@
+body {
+    background: url(/src/img/bg-1.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 60vmax;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.jumbotron{
+    margin-top:20px;
+    color: #130F49;   
+}
+
+.jumbotron h1{
+    font-size: 36pt;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 65px;
+    text-align: center;
+}
+
+.jumbotron p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12pt;
+    text-align: center;
+}
+
+.text-underline{
+  position:relative;
+}
+.text-underline::after{
+    content:" ";
+    margin-bottom: -5px;
+    position: absolute;
+    background-color : #FFD32C;
+    height: 1px;
+    width: 100%;
+    bottom:0;
+    left:0;
+}
+
+.btn-jumbotron{
+    background-color: #130F49 !important;
+    font-size: 10pt !important;
+    letter-spacing: -0.05em !important;
+    border-radius: 15px !important;
+    padding: 15px 35px !important;
+    display: inline-block;
+
+}
+
+.btn-margin{
+    justify-content: center;
+    display: flex;
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    
+    .jumbotron{
+        margin-top: 7rem;
+        margin-left: 10rem;
+       
+    }
+
+    .jumbotron h1{
+        font-size: 48pt;
+        font-weight: 700;
+        letter-spacing: -0.02em;
+        line-height: 65px;
+        text-align: left;
+    }
+    
+    .jumbotron p{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14pt;
+        text-align: left;
+    }
+
+    .btn-margin{
+        justify-content: start;
+        display: flex;
+    }
+
+    .btn-jumbotron{
+        background-color: #130F49 !important;
+        font-size: 10pt !important;
+        letter-spacing: -0.05em !important;
+        border-radius: 20px !important;
+        padding: 25px 50px !important;
+        display: inline-block;
+    }
+ }

@@ -1,0 +1,136 @@
+.join-margin-top{
+    margin-top: 5rem;
+}
+
+.bg-lightblue{
+    background-color: #D9F4FF;
+    border-radius: 50px;
+}
+
+.join-container{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    color: #130F49;
+    text-align: center;
+}
+
+.join-left{
+    padding: 70px 0;
+    z-index: 1;
+}
+
+.join-left h1{
+    font-size: 32pt;
+    font-weight: 600;
+    line-height: 1;
+    margin-bottom: 2rem;
+}
+
+.img-content3{
+    width: 75%;
+    margin-top:-300px;
+}
+
+.join-right{
+    text-align: right;
+}
+
+/* Button App Store  ---------------------------------------------------------------------*/
+
+.join-icon-apple{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    float: left;
+    color: white;
+
+}
+.join-get-on-the{
+    display: block;
+    font-size: 8pt;
+    opacity: 0.5;
+    color:white
+}
+
+.join-app-store{
+    display: block;
+    font-size: 11pt;
+    font-weight: 600;
+    color: white;
+}
+
+.join-item-center{
+    display: flex;
+    align-items: center;
+    line-height: 15px;
+}
+
+.join-text-left{
+    text-align: left;
+}
+
+.join-btn-app{
+    background-color: #130F49 !important;
+    border-radius: 15px !important;
+    padding: 15px 30px 15px 15px !important;
+    color: #130F49 !important;
+}
+
+.join-btn-app:hover{
+    background-color: #312c77 !important;
+    border-radius: 15px;
+    padding: 15px 30px 15px 15px;
+    color: #130F49;
+}
+
+/* end button  -------------------------------------------------------------------------*/
+
+@media (min-width: 576px) { 
+    .img-content3{
+        width: 100%;
+        margin-top:100px;
+    }
+}
+
+@media (min-width: 768px) { 
+    
+    .img-content3{
+        width: 120%;
+        margin-top:0;
+    }
+ }
+
+@media (min-width: 992px) { 
+
+    .join-margin-top{
+        margin-top: 10rem;
+    }
+    .join-container{
+        margin-top: 5rem;
+        margin-left: 10rem;
+        margin-right: 10rem;
+        color: #130F49;
+        text-align: left;
+    }
+
+    .join-left{
+        padding: 120px 0;
+    }
+    
+    .join-left h1{
+        font-size: 39pt;
+        font-weight: 600;
+        line-height: 1;
+    }
+
+    .img-content3{
+        width: 120%;
+        margin-top:100px;
+    
+    }
+
+    .join-right{
+        position: relative;
+    }
+}

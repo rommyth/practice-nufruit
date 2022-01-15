@@ -1,23 +1,24 @@
+import JumbotronComp from './Component/Header/JumbotronComp';
+import NavbarComp from './Component/Navbar/NavbarComp';
 import logo from './logo.svg';
 import './App.css';
+import TargetSectionComp from './Component/Content1/TargetSectionComp';
+import TrackAnywayComp from './Component/Content2/TrackAnywayComp';
+import TrackCaloriesComp from './Component/Content3/TrackCaloriesComp';
+import SponsorComp from './Component/Content4/SponsorComp';
+import JContentComp from './Component/Content5/JContentComp';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <NavbarComp />
+      <JumbotronComp />
+      <TargetSectionComp />
+      <TrackAnywayComp />
+      <TrackCaloriesComp />
+      <JContentComp />
+      <SponsorComp />
     </div>
   );
 }

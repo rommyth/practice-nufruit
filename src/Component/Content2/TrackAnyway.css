@@ -1,0 +1,101 @@
+.track-anyway{
+    margin-top:7rem;
+    background-image: url(/src/img/bg-3.png);
+    background-repeat: no-repeat;
+    background-position: -20px 80px;
+    background-size: 70vmax;
+    color: #130F49;
+}
+
+.extra-container{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.track-left h1{
+    font-size: 36pt;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.img-content-left{
+    width: 60%;
+    margin-top: 50px;
+}
+
+.track-right h2{
+    font-size: 18pt;
+    margin-top: 50px;
+    opacity: 0.4;
+}
+
+.diamond-shape{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    position: absolute;
+    z-index: 0;
+    transform: rotate(45deg);
+    margin-top: -15px;
+}
+
+.diamond-shape span{
+    transform: rotate(-45deg);
+    font-size: 20pt;
+}
+
+.track-right h5{
+    font-size: 14pt;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+}
+
+.track-right p{
+    font-size: 12pt;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+    opacity: 0.4;
+}
+
+/* utilitis */
+.margin-left-3{
+    margin-left: 5.5rem;
+}
+
+.margin-top-4{
+    margin-top: 4em;
+}
+
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+    .track-anyway{
+        margin-top:10rem;
+        background-image: url(/src/img/bg-3.png);
+        background-repeat: no-repeat;
+        background-position: -20px 50px;
+        background-size: 50vmax;
+        height:800px;
+        color: #130F49;
+    }
+
+    .extra-container{
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }
+
+    .track-left h1{
+        font-size: 42pt;
+        font-weight: 600;
+        line-height: 1;
+    }
+
+    .track-right h2{
+        margin-top: 50px;
+        opacity: 0.4;
+     }
+}

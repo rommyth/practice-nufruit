@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.fonts a{
+    font-family: 'Poppins', sans-serif !important;
+}
+.btn-our{
+    background-color: rgba(240, 253, 255, 0.538) !important;
+    border-radius: 10px !important;
+    font-size: 8pt !important;
+    font-weight: 600 !important;
+    padding : 10px 20px !important;
+    letter-spacing: -0.05em !important;
+    display:flex !important;
+    align-items: center !important;
+}
+
+.btn-our:hover{
+    background-color: rgba(240, 253, 255, 0.689) !important;
+    border-radius: 10px !important;
+    font-size: 8pt !important;
+    font-weight: 600 !important;
+    padding : 10px 20px !important;
+    letter-spacing: -0.05em !important;
+    display:flex !important;
+    align-items: center !important;
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .btn-our{
+        background-color: white !important;
+        border: 1px solid #E6E6E6 !important;
+        border-radius: 10px !important;
+        font-size: 10pt !important;
+        font-weight: 600 !important;
+        padding : 10px 20px !important;
+        letter-spacing: -0.05em !important;
+        display:flex !important;
+        align-items: center !important;
+    }
+    
+    .btn-our:hover{
+        background-color: rgb(240, 253, 255) !important;
+        border: 1px solid #E6E6E6 !important;
+        border-radius: 10px !important;
+        font-size: 10pt !important;
+        font-weight: 600 !important;
+        padding : 10px 20px !important;
+        letter-spacing: -0.05em !important;
+        display:flex !important;
+        align-items: center !important;
+    }
+}
+
+/* Side bar ---------------------------------------------------------------- */
+
+.btn-side {
+    display: inline-block;
+    text-decoration: none;
+    border:1px solid #E6E6E6;
+    padding:30px 0;
+    min-width: 150px;
+    color: black;
+    border-radius: 10px;
+    margin: 5px 5px;
+    transition: all 0.2s ease-in-out;
+    font-family: Poppins;
+}
+
+.btn-side:hover {
+    display: inline-block;
+    text-decoration: none;
+    border:1px solid #E6E6E6;
+    padding:30px 0;
+    min-width: 150px;
+    color: black;
+    border-radius: 10px;
+    margin: 5px 5px;
+    background-color: #E6E6E6;
+}
+
+.align-cusitems-center{
+    align-items: center;
+    text-align: center;
+}

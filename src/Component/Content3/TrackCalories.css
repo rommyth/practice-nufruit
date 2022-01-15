@@ -1,0 +1,136 @@
+.calories-section{
+    margin-top:6rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.calories-right h1{
+    font-size: 24pt;
+    font-weight: 600;
+    color: #130F49;
+    line-height: 3rem;
+    
+}
+
+.calories-right p {
+    font-size: 12pt;
+    font-weight: 500;
+    opacity: 0.4;
+}
+
+.calories-left{
+    position: relative;
+    width: 70%;
+    height: auto;
+    overflow: hidden;
+   
+}
+
+/* utilities */
+.left-5{
+    margin-left: 6em;
+}
+
+/* Button App Store  ---------------------------------------------------------------------*/
+
+.icon-apple{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    float: left;
+
+}
+.get-on-the{
+    display: block;
+    font-size: 8pt;
+    opacity: 0.7;
+}
+
+.app-store{
+    display: block;
+    font-size: 11pt;
+    font-weight: 600;
+}
+
+.item-center{
+    display: flex;
+    align-items: center;
+    line-height: 15px;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.btn-app{
+    background-color: #CCE8FD !important;
+    border-radius: 15px !important;
+    padding: 15px 30px 15px 15px !important;
+    color: #130F49 !important;
+}
+
+.btn-app:hover{
+    background-color: #a7d4f6 !important;
+    border-radius: 15px;
+    padding: 15px 30px 15px 15px;
+    color: #130F49;
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .calories-left{
+        margin-top: -60px;
+        width: 400px;
+        height: auto;
+        overflow: hidden;
+        position: absolute;
+    }
+
+    .calories-section{
+        margin-top: 1rem;
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }
+
+    .calories-right h1{
+        font-size: 39pt;
+        font-weight: 600;
+        color: #130F49;
+        line-height: 3rem;
+    
+    }
+
+    .calories-right p {
+        font-size: 14pt;
+        font-weight: 500;
+        opacity: 0.4;
+    }
+    
+/* Button App Store  ---------------------------------------------------------------------*/
+
+.icon-apple{
+    display: inline-block;
+    width:30px;
+    height: 30px;
+    float: left;
+
+}
+.get-on-the{
+    display: block;
+    font-size: 8pt;
+    opacity: 0.8;
+}
+
+.app-store{
+    display: block;
+    font-size: 11pt;
+    font-weight: 600;
+}
+
+.item-center{
+    display: flex;
+    align-items: center;
+    line-height: 15px;
+}
+
+}
